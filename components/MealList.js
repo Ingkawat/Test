@@ -27,7 +27,7 @@ const MealList = (props) => {
     <View style={styles.list}>
       <FlatList
         //เขียนโค้ดเพิ่ม
-        style={{width: "100%", height:"50%"}}
+        style={{width: "100%", height:"10%"}}
         data={props.listData}
         renderItem={renderMealItem}
       />
